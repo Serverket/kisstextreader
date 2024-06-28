@@ -25,14 +25,14 @@ KISS Text Reader is a text-to-speech application with a simple and intuitive gra
 
 * **GUI**: The application has a graphical user interface created with Tkinter and customtkinter. The GUI includes a logo and buttons for each of the features.
 
-# 1. Dependency Installs
+## 1. Dependency Installs
 
 ```
 apt install libmp3-info-perl libmp3-tag-perl libsox-fmt-mp3 libunicode-string-perl sox xsel mpg321 python3-pip
 ```
 _Note: this was first tested on Parrot OS, hence is proven to work flawlessly on Debian or any other distribution based on it. For other distributions or operating systems, replace the 'apt install' part with your package manager._
 
-# 2. gTTS Install
+## 2. gTTS Install
 
 You'll require ```pip``` (Python Package Installer) and also ```gTTS``` (Google Text-to-Speech), library and CLI tool to interface with Google Translate’s text-to-speech API, that’s what makes most of the job.
 
@@ -41,7 +41,7 @@ pip install gTTS
 ```
 
 
-# 3. Execution Scripts
+## 3. Execution Scripts
 
 There are two ways to do this:
 
